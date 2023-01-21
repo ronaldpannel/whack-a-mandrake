@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandrake Sprite Animation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img class="mandrake" id="mandrake" src="mandrake.png" alt="" />
+    <img class="background" id="background" src="mushroomBG.png" alt="" />
+    <div class="container" id="container">
+      <div class="title">
+        <p class="score">Score: <span id="score">0</span> </p>
+        <p>Whack a Mandrake</p>
+          <p class ="timer">Time: <span id="time">0</span> </p>
+      </div>
+      <canvas class="canvas1" id="canvas1"></canvas>
+      <button class="startBtn" id="startBtn">Start Game</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
