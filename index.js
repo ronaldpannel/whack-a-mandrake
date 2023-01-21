@@ -23,7 +23,7 @@ window.addEventListener("load", function () {
   }
 
   //game Timer
-  let timerValue = 30;
+  let timerValue = 60;
   function decreaseTimer() {
     if (timerValue > 0) {
       setTimeout(decreaseTimer, 1000);
@@ -75,7 +75,7 @@ window.addEventListener("load", function () {
     }
     update() {
       this.frameRate++;
-      if (this.frameRate % 80 == 0) {
+      if (this.frameRate % 90 == 0) {
         this.x =
           Math.random() * this.canvasWidth - (this.width * this.scale) / 2;
         this.y =
